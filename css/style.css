@@ -1,0 +1,244 @@
+/* CSS Document */
+
+*{margin: 0; padding: 0;}
+body{ overflow-x: hidden;font:20px/1 '微软雅黑'; color: #333; background: #fff;}
+li{list-style: none}
+a{color: #333; text-decoration: none}
+/*a:hover{text-decoration: underline}*/
+
+input,button,select{-webkit-appearance:none; outline:none; border:none; background:none; cursor: pointer;}
+
+/*火狐移除右侧箭头*/
+input[type=number] {  
+    -moz-appearance:textfield;
+}
+
+/*谷歌以及其他浏览器移除右侧箭头*/
+input[type=number]::-webkit-inner-spin-button,  
+input[type=number]::-webkit-outer-spin-button {  
+    -webkit-appearance: none;
+}
+
+.flex{
+    display: flex;
+}
+.clear{clear: both;}
+
+
+.left{float: left;}
+.right{float: right;}
+
+
+/* .container {width: 100%; max-width: 640px; margin: 0 auto;}   //移动屏幕 */
+.container {width: 1200px; margin: 0 auto;display: flex;}				
+
+.img100 img{width:100%; height:auto;}
+.imgh100 img{width:auto; height:100%;}
+
+.border{border:1px solid #333; box-sizing: border-box;}
+
+.hg100{width: 100%; height: 100px;}
+.hg80{width: 100%; height: 80px;}
+/* index */
+
+.area{
+    font-size: 12px;
+    align-self: flex-end;
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+}
+.logo{
+    justify-content: space-between;
+}
+.nav{
+    background: #bd9b60;
+    display: flex;
+}
+
+.nav-td{
+    display: block;
+    padding: 0 50px;
+    text-align: center;
+    line-height: 102px;
+    
+    color: #fff;
+}
+.nav-td:hover{
+    background-image: linear-gradient(#f2ebdf, #be9c62);
+}
+
+.banner img{
+    position: relative;
+    margin-left: -960px;
+    left:50%;
+}
+
+.btn-bottom{
+    color:#fff;
+    text-align: center;
+    margin-top:-120px;
+    z-index: 50;
+    font-weight: bold;
+    position: relative;
+    line-height: 50px;
+    
+}
+.lijiyuyue{
+    flex-direction: column;
+}
+.input input{
+    background: #f0f0f0;
+    font-size: 18px;
+    padding:5px;
+}
+.input span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.input{
+    margin:50px 0;
+}
+
+.btn{
+    width:100px;background:#bd9b60;color:#fff;
+    text-align: center;
+    margin:0 auto;padding: 10px 20px;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px 3px #999
+}
+.hr{
+    height:7px ;
+    background-image: linear-gradient(#eeeeee, #fcfcfc);
+    margin:50px 0;
+}
+
+.title{
+    flex-direction: column;
+}
+
+.title .t1{
+    font-weight: bold;
+    color:#555555;
+    font-size: 26px;
+}
+
+.title .t2{
+    font-size: 18px;
+    color:#555555;
+    margin: 10px 0;
+}
+.title .t3{
+    width:338px;
+    height: 2px;
+    background: #bd9b60;
+}
+.title .t3::before{
+    content: '';
+    width: 10px;
+    height:10px;
+    background: #bd9b60;
+    display: block;
+    float: right;
+    margin-top: -4px;
+    border-radius: 5px;
+}
+
+.index-img{
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: #bd9b60;
+    font-weight: bold;
+}
+.index-img-box{
+    margin-bottom: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.doc{
+    height:491px;
+    margin-top: 41px;
+    border-radius: 40px;
+    box-shadow: 0 0 5px 5px #ccc;
+    text-align: center;
+}
+.doc img{
+    border-radius: 40px;
+
+}
+.name-zh{
+    line-height: 30px;
+    color: #000;
+    font-size: 18px;
+}
+.name-en{
+    color:#c8c8c8;
+    font-size: 18px;
+    line-height: 30px;
+}
+.space-around{
+    justify-content: space-between;
+}
+.picScroll-left ul li{
+padding:0 73px;  
+width: 255px;
+height: 172px;
+}
+.lb{
+   justify-content: center;
+   align-items: center;
+}
+.picScroll-left ul li img{
+
+}
+.picScroll-left ul li span{
+    color:#fff;
+    margin-top: -90px;
+    display: block;
+    text-align: center;
+}
+.btm-nav{
+    background: #bd9b60;
+    height: 63px;
+    margin-top: 50px;
+}
+.btm-nav a{
+    color:#fff;
+    padding: 0 80px;
+    line-height: 63px;
+}
+.foot{
+    height:403px;
+    background:#f6f6f6;
+}
+.foot .container{
+    justify-content: space-around;
+    align-items: center;
+}
+.foot .container ul{
+    margin-top: 20px;
+}
+.foot .container li{
+    line-height: 45px;
+    color:#bd9b60;
+    
+}
+.qr{
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+}
+.qr *{
+    margin: 3px 0;
+}
+.qr img{
+    width:120px;
+    height: 120px;
+}
