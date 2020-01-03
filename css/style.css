@@ -23,7 +23,12 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
 }
 .clear{clear: both;}
-
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
 
 .left{float: left;}
 .right{float: right;}
@@ -242,3 +247,37 @@ height: 172px;
     width:120px;
     height: 120px;
 }
+
+
+.about p{
+    line-height: 32px;
+    font-size: 14px;
+}
+.about span{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 30px;
+    display: block;
+    line-height: 35px;
+}
+
+.linian{
+    height:434px;
+    background: #bd9b60;
+    
+}
+
+.banner img{
+}
+
+
+
+
+
+
+
+
+
+
+
+
